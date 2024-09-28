@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Página</title><link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Segunda Página</h1>
+    <p>Essa é a segunda página do site!</p>
+    <p>Lá era um arco-íris né?, aqui é vermelho e preto, Terror, HaHaHa!
+        <br>
+        E um pouco de laranja, já que mês que vem é Halloween 🎃🧟🦉
+    </p>
+    <h2>Para voltar a página principal, clique no link abaixo</h2>
+    <a href="index.html">Página Principal</a>
+    <h2>Abra a imagem abaixo!</h2>
+    <img id="imagem" src="disneyhalloween.jpg" alt="disneyhalloween" onclick="trocarImagem()">
+    <script>
+function trocarImagem(){
+document.getElementById("imagem").src = "Scary.jpg";
+document.getElementById("imagem").alt = "Imagem Diferente"
+}
+    </script>
+</body>
+</html>

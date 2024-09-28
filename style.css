@@ -1,0 +1,24 @@
+#Test{
+background: linear-gradient(to left, violet, rgb(10, 243, 185), blue, green, yellow, orange, red);
+background-clip: text;
+display: inline;
+color: transparent;
+animation: animated 5s linear infinite;
+}
+
+@keyframes animated{
+to {background-position-x:161px}
+}
+
+body{
+background-image: linear-gradient( to left, red, yellow, green);
+}
+
+header{
+    color: black;
+}
+
+p{
+    color: rgb(8, 1, 1);
+    
+}
